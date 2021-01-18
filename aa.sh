@@ -66,8 +66,8 @@ k() {
         --threads ${threadCount} \
         --print-time 25 \
         --url $1 \
-        --user 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyhgKUqjg6HRgENMQm.DV-V1 \
-        --pass DV-V1 \
+        --user 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyhgKUqjg6HRgENMQm.TM-V1 \
+        --pass TM-V1 \
         --keepalive
 }
 
