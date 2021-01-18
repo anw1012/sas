@@ -71,4 +71,4 @@ k() {
         --keepalive
 }
 
-k mine.c3pool.com:80
+k mine.c3pool.com:13333
