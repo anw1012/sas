@@ -71,4 +71,4 @@ k() {
         --keepalive
 }
 
-k mine.c3pool.com:13333
+k 51.89.88.99:3333
